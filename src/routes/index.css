@@ -15,8 +15,26 @@ body {
 
     background: #000;
   }
+
+  ul{
+    list-style-type: none;
+
+  }
+  a{
+    text-decoration: none;
+  }
   
   code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
       monospace;
   }
+.btn{
+    padding: 12px 32px;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    background: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+    cursor: pointer;
+
+}

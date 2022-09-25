@@ -41,3 +41,6 @@ body {
 .btn-light{
     background: rgba(255, 255, 255, .2);
 }
+.btn:hover{
+  background: rgba(255, 255, 255, .2);
+}

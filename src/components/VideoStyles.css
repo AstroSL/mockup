@@ -1,0 +1,35 @@
+#video{
+    position: fixed;
+    width: 100;
+    height: 100;
+    object-fit:cover;
+
+}
+
+.sac{
+    height:100 vh;
+    width: 100%;
+    object-fit: contain;
+}
+
+.sac .content{
+    text-align: center;
+    position: absolute;
+    margin: auto;
+    width:100%;
+    height:100%;
+    top: 40vh;
+}
+
+.sac .content h1{
+    font-size: 4rem;
+    color: #fff;
+}
+
+.sac p{
+    font-size: 1.8rem;
+    font-weight: 200;
+    text-transform: uppercase;
+    margin-bottom: 1.6rem;
+    color: #fff;
+}

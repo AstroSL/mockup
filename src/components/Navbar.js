@@ -2,6 +2,7 @@ import React,{useState} from 'react'
 import {Link} from 'react-router-dom'
 import './NavbarStyles.css'
 import{FaBars, FaTimes}from 'react-icons/fa'
+import './FooterStyles.css'
 
 const Navbar = () => {
     const[click, setClick] = useState(false)

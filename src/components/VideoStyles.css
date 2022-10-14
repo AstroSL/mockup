@@ -6,13 +6,13 @@
 
 }
 
-.sac{
+.food{
     height:100 vh;
     width: 100%;
     object-fit: contain;
 }
 
-.sac .content{
+.food .content{
     text-align: center;
     position: absolute;
     margin: auto;
@@ -21,15 +21,30 @@
     top: 40vh;
 }
 
-.sac .content h1{
+.food .content h1{
     font-size: 4rem;
     color: #fff;
 }
 
-.sac p{
+.food p{
     font-size: 1.8rem;
     font-weight: 200;
     text-transform: uppercase;
     margin-bottom: 1.6rem;
     color: #fff;
+}
+
+.food .btn{
+    margin :1rem .2rem;
+}
+
+@media screen and (max-width:640px){
+    .content h1{
+        font-size: 3rem;
+    }
+
+    .content p{
+        font-size: 1.4rem;
+        margin-bottom: 1.6rem;
+    }
 }

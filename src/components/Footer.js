@@ -10,8 +10,8 @@ const Footer = () => {
                     <div className='location'>
                         <FaSearchLocation size={20} style={{ color: '#ffffff', marginRight: '2rem' }} />
                         <div>
-                            <p>123 Acme St.</p>
-                            <h4>Houston, Tx</h4>
+                            <p>916 placeholder</p>
+                            <h4>Sacramento, CA</h4>
                         </div>
                     </div>
                     <div className='phone'>
@@ -22,11 +22,8 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className='right'>
-                    <h4>About the company</h4>
-                    <p>"Lorem ipsum dolor sit amet, consectetur
-                    adipiscing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam"</p>
+                    <h4>About food Insecurity</h4>
+                    <p>"food food food food food food food food food "</p>
                     <div className='social'>
                         <FaFacebook size={30} style={{ color: '#ffffff', marginRight: '1rem' }} />
                         <FaTwitter size={30} style={{ color: '#ffffff', marginRight: '1rem' }} />

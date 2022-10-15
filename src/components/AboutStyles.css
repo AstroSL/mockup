@@ -1,0 +1,33 @@
+.about{
+    width:100%;
+    padding: 6rem 1 rem;
+    background-color: 0000;
+}
+
+.card-container{
+    max-width:800px;
+    margin: auto;
+    display: grid;
+    grid-gap: 40px;
+    grid-template-columns: repeat(1,1fr);
+}
+
+/*text of basic*/
+.card-container .card{
+    border: 1px solid #eee;
+    color: #eeee;
+}
+/*size*/
+.card h3{
+    font-size:1.6rem;
+}
+
+.card{
+    text-align: center;
+    padding: .5rem;
+}
+/*
+.card:hover{
+    background-color:bisque;
+}*/
+

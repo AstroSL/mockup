@@ -9,8 +9,6 @@ const Navbar = () => {
     const handleClick = () => setClick(!click)
 
 
-
-
   return (
     <div className='header'>
         <Link to='/'><h1>Transportation Mock</h1></Link>

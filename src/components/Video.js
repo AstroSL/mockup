@@ -1,7 +1,6 @@
 import React from 'react'
 import './VideoStyles.css'
 import {Link} from 'react-router-dom'
-
 import sacOne from '../assets/sacv.mp4'
 
 const Video = () => {

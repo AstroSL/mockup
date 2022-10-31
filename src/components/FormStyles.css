@@ -1,0 +1,25 @@
+label{
+    color: white;
+}
+
+form{
+    
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    margin: auto;
+    max-width: 650px;
+}
+
+form label{
+    margin-bottom: .5rem;
+}
+
+for input, textarea{
+    
+    margin-bottom: 1rem;
+    padding: 10px 18px;
+    font-size: 1.2rem;
+    font-family: 'Roboto Slab' sans-serif;
+    border-color: rgba(255,255,255,.1);
+}

@@ -10,6 +10,7 @@ const Footer = () => {
                     <div className='location'>
                         <FaSearchLocation size={20} style={{ color: '#ffffff', marginRight: '2rem' }} />
                         <div>
+                            <h4>Find out more</h4>
                             <p>916 placeholder</p>
                             <p>Sacramento, CA</p>
                         </div>

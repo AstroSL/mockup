@@ -19,9 +19,6 @@ const About = () => {
                 <p>- Temperature danger zone when traveling with food</p>
                 <p className='indent'>-70-135 degree temperature</p>
                 <p>- Foil pans and Cambro recommended</p>
-
-
-
             </div>
 
             <div className='card'> 
@@ -29,14 +26,6 @@ const About = () => {
               <input type='checkbox' id="option-all"></input>
                 <label for="option all"> Select all</label>
                 <br></br>
-
-                
-
-
-
-
-
-
             </div>
         </div>  
     </div>

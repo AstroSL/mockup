@@ -2,10 +2,10 @@ import React from 'react'
 import Footer from '../components/Footer'
 import HeroImage from '../components/HeroImage'
 import Navbar from '../components/Navbar'
-import Registration from '../components/Registration'
+import SubmitForm from '../components/SubmitForm'
 
 
-const Register = () => {
+const Submit = () => {
 
   
 
@@ -13,11 +13,11 @@ const Register = () => {
     <div>
         <Navbar />
         <HeroImage heading='Register'/>
-        <Registration />
+        <SubmitForm />
 
         <Footer />
     </div>
   )
 }
 
-export default Register
+export default Submit

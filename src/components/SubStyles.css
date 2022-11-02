@@ -3,12 +3,11 @@ label {
 }
 
 .form1 {
-    
     display: flex;
     flex-direction: column;
     padding: 1rem;
     margin: auto;
-    max-width: 600px;
+    max-width: 500px;
 }
 
 
@@ -92,7 +91,7 @@ for input, .news textarea{
     font-size: larger;
 }
 
-.option{
+.select{
     display: flex;
     flex-direction: column;
     padding: 1rem;

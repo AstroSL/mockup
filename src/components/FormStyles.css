@@ -10,6 +10,7 @@ label {
     max-width: 600px;
 }
 
+
 form label {
     margin-bottom: .5rem;
 }
@@ -74,4 +75,15 @@ for input, .news textarea{
     padding: 0rem;
     margin: auto;
     max-width: 700px;
+}
+
+.news1 {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    margin: auto;
+    max-width: 600px;
+}
+.news1 label {
+    text-align: center;
 }

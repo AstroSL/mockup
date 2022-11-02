@@ -1,17 +1,23 @@
-import React from 'react'
+import React,{useState} from 'react'
 import Footer from '../components/Footer'
 import HeroImage from '../components/HeroImage'
 import Navbar from '../components/Navbar'
-import Login1 from '../components/Login1'
+import Log from '../components/Log'
+//import Register from '../components/Register'
 
 const Login = () => {
+
+  
+
   return (
     <div>
         <Navbar />
-        <HeroImage heading='Login'/>
-        <Login1 />
+        <HeroImage heading='LOGIN'/>
+        <Log />
+        
         <Footer />
-    </div>  )
+    </div>
+  )
 }
 
 export default Login

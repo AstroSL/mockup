@@ -5,16 +5,16 @@ label {
 .form1 {
     display: flex;
     flex-direction: column;
-    padding: 1rem;
+    padding: 2rem;
     margin: auto;
-    max-width: 500px;
+    max-width: 300px;
 }
 
 
 form label {
     color: white;
     font-size: larger;
-    margin-bottom: .5rem;
+    margin-bottom: .3rem;
 }
 
 form input, textarea {
@@ -91,10 +91,10 @@ for input, .news textarea{
     font-size: larger;
 }
 
-.select{
+.option1{
     display: flex;
     flex-direction: column;
-    padding: 1rem;
+    padding: .5rem;
     margin: auto;
     max-width: 600px;
 }

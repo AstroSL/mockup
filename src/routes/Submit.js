@@ -12,7 +12,7 @@ const Submit = () => {
   return (
     <div>
         <Navbar />
-        <HeroImage heading='Register'/>
+        
         <SubmitForm />
 
         <Footer />

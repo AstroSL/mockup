@@ -19,7 +19,7 @@ export const Log = (props) => {
                 <label htmlFor="password">password</label>
                 <input value={pass} onChange={(e) => setPass(e.target.value)} type="password" placeholder="********" id="password" name="password" />
                 <button type="submit">Log In</button>
-                <a href="http://localhost:3000/register" target="http://localhost:3000/register">Don't have an account? Register here.</a>
+                <a href="http://localhost:3000/" target="http://localhost:3000/">Forgot password? Click here.</a>
 
             </form>
             

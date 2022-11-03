@@ -13,8 +13,8 @@ const Video = () => {
             <h1>Food Insecurity</h1>
             <p>Sacramento</p>
         <div>
-             <Link to='/checklist' className='btn'>Checklist</Link>
-             <Link to='/placerholder1' className='btn'>Placeholder1</Link>    
+             <Link to='/login' className='btn'>Login</Link>
+             <Link to='/map' className='btn'>Map</Link>    
             </div>
         </div>
     </div>

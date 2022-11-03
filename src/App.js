@@ -6,6 +6,7 @@ import Contact from './routes/Contact';
 import Register from './routes/Register';
 import Login from './routes/Login';
 import Submit from './routes/Submit';
+import Map from './routes/Submit';
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
         <Route path='/login' element={<Login />}/>
         <Route path='/register' element={<Register />}/>
         <Route path='/submit' element={<Submit />}/>
+        <Route path='/map' element={<Map />}/>
       </Routes>
     </>
   );
